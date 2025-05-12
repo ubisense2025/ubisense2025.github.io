@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+    @apply tracking-wide;
+  }
+
+  header {
+    background-image: url("../img/coolbackgrounds-fractalize-clear_lagoon.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  ::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-base-border dark:bg-base-border-dark;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    @apply bg-darker-border dark:bg-darker-border-dark;
+  }
+
+  ::-webkit-scrollbar-corner {
+    @apply bg-base-border dark:bg-base-border-dark;
+  }
+}
+
+@layer components {
+  .link {
+    @apply transition-all text-white select-none w-full md:w-auto text-lg pl-4 pr-4 pt-2 pb-2 text-center rounded-lg bg-white/20 border border-base-border;
+  }
+  .link:hover {
+    @apply transition-all text-blue-400 bg-white/80;
+  }
+  .plink {
+    @apply text-blue-400 hover:underline;
+  }
+}
