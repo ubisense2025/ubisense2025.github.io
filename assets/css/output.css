@@ -694,8 +694,20 @@ header {
   width: 200px;
 }
 
+.w-\[300px\] {
+  width: 300px;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
+.min-w-full {
+  min-width: 100%;
 }
 
 .max-w-\[1024px\] {
@@ -710,12 +722,32 @@ header {
   max-width: 100%;
 }
 
+.max-w-\[1200px\] {
+  max-width: 1200px;
+}
+
+.max-w-\[1300px\] {
+  max-width: 1300px;
+}
+
+.max-w-\[1500px\] {
+  max-width: 1500px;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
 .list-disc {
   list-style-type: disc;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -736,6 +768,10 @@ header {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-y-10 {
+  row-gap: 2.5rem;
 }
 
 .overflow-hidden {
