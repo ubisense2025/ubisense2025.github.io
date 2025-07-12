@@ -1,12 +1,4 @@
 node_modules
-.DS_Store
-dist
-dist-ssr
-coverage
-*.local
-
-# Editor directories and files
-.vscode
-!.vscode/extensions.json
-
-test.*
+*.js
+*.json
+temp.*
