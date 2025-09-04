@@ -903,8 +903,25 @@ header {
   font-weight: 700;
 }
 
+.font-\[600\] {
+  font-weight: 600;
+}
+
+.font-\[500\] {
+  font-weight: 500;
+}
+
+.font-\[400\] {
+  font-weight: 400;
+}
+
 .leading-10 {
   line-height: 2.5rem;
+}
+
+.text-moonlight-400 {
+  --tw-text-opacity: 1;
+  color: rgb(117 195 255 / var(--tw-text-opacity, 1));
 }
 
 .text-red-500 {
@@ -915,6 +932,16 @@ header {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-moonlight-500 {
+  --tw-text-opacity: 1;
+  color: rgb(79 173 255 / var(--tw-text-opacity, 1));
+}
+
+.text-moonlight-600 {
+  --tw-text-opacity: 1;
+  color: rgb(41 148 255 / var(--tw-text-opacity, 1));
 }
 
 .transition {
